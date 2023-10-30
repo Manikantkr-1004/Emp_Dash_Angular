@@ -1,0 +1,8 @@
+<input type="text" placeholder="name" #name />
+<input type="number" placeholder="salary" #salary />
+<input type="text" placeholder="designation" #des />
+<button (click)="handleAdd(name.value,salary.value,des.value)">ADD</button>
+
+<div>
+    <h1>{{highest}}</h1>
+</div>
